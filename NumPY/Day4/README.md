@@ -29,7 +29,7 @@ Convert image files into NumPy arrays using libraries like `PIL` (Pillow) or `Ma
 import numpy as np
 from PIL import Image
 
-# Load image and convert to NumPy mat
+# Load image and convert to NumPy 
 img = Image.open('sample.png')
 img_matrix = np.array(img)
 
